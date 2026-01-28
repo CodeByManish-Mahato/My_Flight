@@ -15,6 +15,7 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
 # Quick-start development settings - unsuitable for production
@@ -24,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '=k3z-^1ov_hy5y%ebw(2e-npk@$#!(c8ix=+7so*hmw9m0c52*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
