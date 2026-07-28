@@ -1,4 +1,4 @@
-# Capstone Project | Django Web Application
+# Flight Booking System | Django Web Application
 
 [![Django](https://img.shields.io/badge/Django-6.0.1-092E20?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Python](https://img.shields.io/badge/Python-3.11.9-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
